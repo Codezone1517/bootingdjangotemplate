@@ -19,5 +19,6 @@ from bootingdjangotemplate import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='my index')
+    path('', views.index, name='my index'),
+    path('about', views.about, name='my about')
 ]
